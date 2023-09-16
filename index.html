@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahadyan's Website</title>
+    <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Eo_circle_deep-purple_white_letter-r.svg/2048px-Eo_circle_deep-purple_white_letter-r.svg.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        *, body {
+            margin: 0;
+            padding: 0;
+            font-family: Poppins, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        #about {
+            display: flex;
+        }
+
+        .portfolio {
+            flex: 3.5;
+            margin: 0px 20px 20px 20px;
+            padding: 20px;
+        }
+
+        /* .profile-image {
+            border-radius: 100%;
+            overflow: hidden;
+            border: 0px solid black;
+        } */
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 100%;
+        }
+
+        aside {
+            flex: 1;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            border: 3px solid white;
+        }
+
+        aside h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        li {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .about-me {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .headline {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .desc {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        aside ul {
+            list-style-type: none;
+        }
+
+        #contact {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        #contact ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #contact li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        #contact a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        .greeting {
+            width: 100%;
+            height: 590px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .greeting h1 {
+            display: flex;
+            text-align: center;
+        }
+        .bg-white {
+            background-color: white;
+        }
+
+        .certs {
+            margin-top: 50px;
+        }
+
+        .certificate {
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 20px;
+        }
+
+        .skill-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skill-card {
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            /* padding: 10px;
+            margin: 10px 0; */
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
+        }
+
+        .skill-card h2 {
+            width: 100%;
+            height: 50px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .skill-card span {
+            font-size: 100px;
+        }
+        
+        .wrapper {
+            padding: 20px;
+        }
+
+        .centered-icon {
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="portfolio">
+        <div class="greeting bg-white">
+            <h1>Welcome to my website...</h1>
+            <p>Here is my simple portfolio check out by scrolling down, this website is self-hosted using nginx container by Proxmox Virtual Environment, this website is not responsive yet</p>
+            <p>Here is the link if you want to check out...</p>
+            <p><a href="/">rdn.my.id</a></p>
+        </div>
+    </div>
+    <main id="about">
+        <div class="portfolio">
+            <div class="profile">
+                <h1 class="about-me">About Me...</h1>
+                <p class="headline"><b>Backend Developer | DevOps and Cloud Engineering Enthusiast</b></p>
+                <article class="desc">My full name is Rahadyan Rizqy Addhoyfurrakhman you may call me Raden/Rizqy/Dyan. I'm undergraduate bachelor's degree student of University of Jember, currently studying on my Informatics major. I'm having 2 years experience of coding especially in backend. Besides, i also love to learn new experience such as cloud services and development, volunteering on some activity, joining student association's event, mentoring friends and new students about IT.</article>    
+            </div>
+            <div class="certs">
+                <h1 class="certificate">Certified Skills</h1>
+                <div class="skills">
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>Python</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>Dart</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>C#</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>HTML-CSS</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>JavaScript</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>PHP</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>Linux</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="wrapper">
+                            <h2>Shell (sh)</h2>
+                            <div class="centered-icon">
+                                <span class="material-symbols-outlined">verified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <div class="profile-image">
+                <img src="https://media.licdn.com/dms/image/D5603AQFJD3E3lVAlKA/profile-displayphoto-shrink_800_800/0/1689228973797?e=1699488000&v=beta&t=BlCZPASyVT99mMGqZ7Hf6iIFRF7tKGza24O1XDh8YcM" alt="my-photo">
+            </div>
+            <h1 class="font-white">My Projects</h1>
+            <ul>
+                <li>
+                    <div class="project">
+                        <h4 class="project-name">TiketKapal (C#)</h4>
+                        <p class="project-desc">My first project that i got paid for.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <h4 class="project-name">TokLisApp (C#)</h4>
+                        <p class="project-desc">A project that i provided for my family to manage electricity bills token.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <h4 class="project-name">YAMApp (C#)</h4>
+                        <p class="project-desc">A project that i also provided for my family to manage their accounts securely.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <h4 class="project-name">BerburuMora (Python)</h4>
+                        <p class="project-desc">A collision detection algorithm based game and campus subject assignment that inspired from Genshin Impact.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <h4 class="project-name">ZipUnzip (Shell)</h4>
+                        <p class="project-desc">A simple shell program to compress and extract file using gzip and tar commands.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <h4 class="project-name">UNEFF 2023 (HTML-CSS-JS-PHP-Laravel-Bootstrap)</h4>
+                        <p class="project-desc">My second project about my campus film festival organized by HIMAFISI UNEJ that i got paid for.</p>
+                    </div>
+                </li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer id="contact">
+        <ul>
+            <li><a href="/wa">Whatsapp</a></li>
+            <li><a href="mailto:mail@rdn.my.id">Email</a></li>
+            <li><a href="/ig">Instagram</a></li>
+            <li><a href="/gh">GitHub</a></li>
+            <li><a href="/lnkd">LinkedIn</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
